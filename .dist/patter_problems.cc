@@ -246,20 +246,19 @@
 
 //alternate
 
-// #include<iostream>
-// using namespace std;
-
-// int main(){
-//     int row, column;
-//     for(row=1; row<=5; row++){
-//         int num=5;
-//         for(column=1; column<=row; column++){
-//             cout<<num<<" ";
-//             num--;
-//         }
-//         cout<<endl;
-//     }
-// }
+#include<iostream>
+using namespace std;
+int main(){
+    int row, column;
+    for(row=1; row<=5; row++){
+        int num=5;
+        for(column=1; column<=row; column++){
+            cout<<num<<" ";
+            num--;
+        }
+        cout<<endl;
+    }
+}
 
 
 
