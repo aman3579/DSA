@@ -256,6 +256,7 @@
 using namespace std;
 int main(){
     int row, col;
+    int num;
     for(row=1; row<=5; row++){
         //printing space
         for(col=1;col<=5-row; col++){
