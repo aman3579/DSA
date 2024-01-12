@@ -11,6 +11,7 @@ int main(){
     // cout<<"Sum of both number: "<<a+b;
 
     int a=10;
+    
     char b = 'e';
     a=b;  //here since b is char and a is int. so it will be typecasted into into i.e. its ASCII value. and then stored.
     //ASCII of e is 101. so 101 will be stored into a.
